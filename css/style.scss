@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,600&family=Russo+One&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+
+.wrapper {
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header {
+    display: flex;
+    background-color: #222222;
+    padding-bottom: 72px;
+    
+    &__wrrap {
+        display: flex;
+        width: 1140px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    // .header__container
+
+    &__container {
+
+    }
+
+    // .header__block--logo
+
+    &__block--logo {
+        display: flex;
+    }
+           &__block--logo a img {
+            padding-top: 18px;
+            margin-right: 24px;
+            margin-bottom: 33px;
+           }
+
+    // .header__tagline
+
+    &__tagline {
+        width: 189px;
+        height: 33px;
+        padding-left: 21px;
+        margin-top: 62px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 18px;
+        color: #2194FF;
+        border-left: 1px solid #fff;
+
+    }
+
+    // .header__content
+
+    &__content {
+        position: relative;
+        z-index: 1;
+    }
+         &__content h1 {
+            font-family: 'Russo One', sans-serif;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 63px;
+            color: #2194FF;
+            margin-bottom: 14px;
+         }
+
+    // .header__box
+
+    &__box {
+        display: flex;
+        margin-bottom: 12px;
+    }
+
+    // .header__delivery
+
+    &__delivery {
+        margin-right: 34px;
+    }
+
+    // .header__day
+
+    &__day {
+        display: flex;
+        column-gap: 8px;
+        vertical-align: middle;
+    }
+
+    // .header__day--title
+
+    &__day--title {
+        padding-top: 7px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21.79px;
+        color: #F1F1F1;
+        opacity: 0.6;
+    }
+                &__day--title1 {
+                    width: 201px;
+                    padding-top: 7px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 21.79px;
+                    color: #F1F1F1;
+                    opacity: 0.6;
+                }
+        &__day--title2 {
+            width: 293px;
+            padding-top: 7px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 21.79px;
+            color: #F1F1F1;
+            opacity: 0.6;
+        }
+    // .header__weather
+
+    &__weather {
+        display: flex;
+        column-gap: 8px;
+        vertical-align: middle;
+        height: 25px;
+    }
+
+    &__arrow {
+        width: 16px;
+    }
+    // .header__title--1
+
+    &__title--1 {
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28.92px;
+        color: #F1F1F1;
+    }
+
+    &__city{
+        display: flex;
+    }
+    // .header__btn
+
+    &__btn {
+        margin-bottom: 13px;
+        width: 395px;
+        height: 87px;
+        background-image: url('../img/btn.svg');
+        border-radius: 11px;
+        text-align: center;
+        padding-top: 15.84px;
+    }
+                &__btn a {
+                    font-family: 'Russo One', sans-serif;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 26.51px;
+                    color: #F1F1F1;
+                    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+                }
+
+    // .header__title--2
+
+    &__title--2 {
+        margin-left: 19px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21.79px;
+        color: #F1F1F1;
+    }
+
+    // .header__contacts
+
+    &__contacts {}
+        &__contacts div {
+            display: flex;
+            flex-direction: column;
+        }
+                &__contacts img {
+                    width: 1037px;
+                    height: 477px;
+                    position: relative;
+                    left: -109px;
+                }
+
+    // .header__phone
+
+    &__phone {
+        margin-top: 24px;
+        margin-left: 265px;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28.92px;
+        color: #F1F1F1;
+    }
+
+    // .header__question
+
+    &__question {
+        margin-left: 265px;
+        margin-bottom: 32px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+        color: #2194FF;
+        text-decoration: underline;
+    }
+}
+
+.price {
+    padding-top: 46px;
+    background-color: #2D2D2D;
+
+    // .price__title
+
+    &__title {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    line-height: 43.38px;
+    color: #2194FF;
+    margin-bottom: 49px;
+    }
+
+    // .price__content
+
+    &__content {
+        display: flex;
+    }
+
+    // .price__box1
+
+    &__box1 {}
+        &__box1 h3 {
+
+        }
+
+    &__general h3 {
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43.38px;
+        color: #F1F1F1;
+    }
+         &__general div {
+            margin-bottom: 21px;
+             font-family: 'Russo One', sans-serif;
+             font-weight: 400;
+             font-size: 24px;
+             line-height: 28.92px;
+             color: #2194FF;
+         }
+    &__general p {
+        margin-bottom: 28px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21.79px;
+        color: #F1F1F1;
+        opacity: 0.6;
+    }
+    // .price__button
+
+    &__button {
+        background-color: #2194FF;
+        display: inline-block;
+        padding: 8px 35px 10px 33px;
+        border-radius: 50px;
+        
+    }
+                &__button a {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24.51px;
+                color: #F1F1F1;
+                }
+
+    // .price__box2
+
+    &__box2 {}
+
+    // .price__ratio
+
+    &__ratio {
+        margin-bottom: 17px;
+        font-family: 'Russo One', sans-serif;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.1px;
+        color: #F1F1F1;
+    }
+
+    // .price__proportion
+
+    &__proportion {
+        display: flex;
+        justify-content: center;
+    }
+
+    // .price__propane
+
+    &__propane {
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43.38px;
+        color: rgba(241, 241, 241, 0.7);
+        text-align: center;
+    }
+        &__propane span {
+            margin-top: -15px;
+            font-family: 'Russo One', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21.69px;
+            color: rgba(241, 241, 241, 0.7);
+            text-align: center; 
+        }
+
+    // .price__butane
+
+    &__butane {}
+
+    // .price__box3
+
+    &__box3 {}
+}
