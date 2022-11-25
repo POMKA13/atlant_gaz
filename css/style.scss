@@ -244,13 +244,16 @@ body{
 
     &__content {
         display: flex;
+        justify-content: space-between;
     }
 
     // .price__box1
 
-    &__box1 {}
-        &__box1 h3 {
-
+    &__box1 {
+        
+    }
+        &__box1 p {
+            width: 259px;
         }
 
     &__general h3 {
@@ -275,11 +278,12 @@ body{
         font-size: 16px;
         line-height: 21.79px;
         color: #F1F1F1;
-        opacity: 0.6;
+        opacity: 0.7;
     }
     // .price__button
 
     &__button {
+        
         background-color: #2194FF;
         display: inline-block;
         padding: 8px 35px 10px 33px;
@@ -293,10 +297,15 @@ body{
                 line-height: 24.51px;
                 color: #F1F1F1;
                 }
-
+    &__button--left {
+        margin-top: 19px;
+    }
     // .price__box2
 
     &__box2 {}
+         &__box2 img {
+            padding-bottom: 44px;
+         }
 
     // .price__ratio
 
@@ -308,6 +317,7 @@ body{
         font-size: 20px;
         line-height: 24.1px;
         color: #F1F1F1;
+        opacity: 0.7;
     }
 
     // .price__proportion
@@ -315,11 +325,12 @@ body{
     &__proportion {
         display: flex;
         justify-content: center;
+        padding-bottom: 17px;
     }
 
     // .price__propane
 
-    &__propane {
+    &__interest {
         font-family: 'Russo One', sans-serif;
         font-weight: 400;
         font-size: 36px;
@@ -327,21 +338,271 @@ body{
         color: rgba(241, 241, 241, 0.7);
         text-align: center;
     }
-        &__propane span {
-            margin-top: -15px;
+        &__text {
+
             font-family: 'Russo One', sans-serif;
             font-weight: 400;
             font-size: 18px;
-            line-height: 21.69px;
+            line-height: 2px;
             color: rgba(241, 241, 241, 0.7);
-            text-align: center; 
+            text-align: left; 
         }
 
     // .price__butane
-
-    &__butane {}
+    &__propane {
+        padding-right: 25px;
+        border-right: 1px solid rgba(241, 241, 241, 0.3);
+    }
+    &__butane {
+        padding-left: 25px;
+    }
 
     // .price__box3
 
-    &__box3 {}
+    &__box3 {
+        margin-left: 16px;
+    }
+          &__box3 p {
+              width: 253px;
+          }
+
+        // .price__arrows
+    
+        &__arrows {
+            position: relative;
+            top: 12px;
+            margin-left: 482px;
+            width: 100px;
+            height: 50px;
+            transform: rotate(225deg);
+        }
+    
+        // .price__arrow1
+    
+        &__arrow1 {
+            width: 34px;
+            height: 34px;
+            border-left: 1px solid #2194FF;
+            border-top: 1px solid #2194FF;
+        }
+    
+        // .price__arrow2
+    
+        &__arrow2 {
+            width: 50px;
+            height: 50px;
+            border-left: 1px solid #2194FF;
+            border-top: 1px solid #2194FF;
+            padding-left: 13px;
+            padding-top: 13px;
+        }
+    
+        // .price__arrow3
+    
+        &__arrow3 {
+            width: 70px;
+            height: 70px;
+            border-left: 1px solid #2194FF;
+            border-top: 1px solid #2194FF;
+            padding-left: 13px;
+            padding-top: 13px;
+        }
+}
+
+.company {
+    background-color: #222222;
+    // .company__title
+
+    &__title {
+        padding-top: 57px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43.38px;
+        color: #F1F1F1;
+    }
+
+    // .company__cards
+
+    &__cards {
+        // width: 1082px;
+        // height: 758px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    // .company__column1
+
+    &__column1 {
+        // width: 380px;
+        // height: 717px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .company__card
+
+    &__card {
+        width: 343px;
+        height: 195px;
+    }
+        &__card img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 14px;
+        }
+         &__card h4 {
+            padding-bottom: 14px;
+            font-family: 'Russo One', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28.92px;
+            text-align: center;
+            color: #2194FF;
+         }
+                        &__card p {
+                            font-family: 'Open Sans', sans-serif;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 21.79px;
+                            text-align: center;
+                            color: #F1F1F1;
+                            opacity: 0.7;
+                        }
+
+    // .company__column2
+    &__baloon {
+        padding-top: 26px;
+    }
+
+    &__50m {
+        padding-top: 161px;
+    }
+    &__payment {
+        padding-top: 41px;
+    }
+    &__column2 {
+        margin-top: 66px;   
+    }
+    &__timer {
+        padding-top: 98px;
+    }
+
+    &__drop {
+        padding-top: 62px;
+    }
+
+    &__sert {
+        padding-top: 156px;
+    }
+
+    // .company__column3
+
+    &__column3 {}
+
+    // .company__footer
+
+    &__footer {
+        display: flex;
+        margin-top: 184px;
+    }
+
+    // .company__track
+
+    &__track {}
+
+    // .company__text
+
+    &__text {
+        position: relative;
+        right: 50px;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42.18px;
+        color: #F1F1F1;
+    }
+        &__text p span {
+            color: #2194FF;
+        }
+                &__text div {
+                    margin-top: 20px;
+                    width: 533px;
+                    padding: 7px 13px 9px 12px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 800;
+                    font-size: 14px;
+                    line-height: 19.07px;
+                    background-color: #2194FF;
+                }
+
+    &__footer {}
+
+    &__track {}
+
+    &__text {}
+}
+
+.capacity {
+    background-color: #2D2D2D;
+    // .capacity__tablink
+
+    &__content {
+        align-items: center;
+    }
+
+    &__container {
+        
+    }
+        &__container div {
+            padding-left: 150px;
+        }
+    &__tablink {
+        width: 164px;
+        height: 64px;
+        padding: 10px 0 10px 0;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.69px;
+        color: #F1F1F1;
+        opacity: 0.7;
+        background: rgba(241, 241, 241, 0.2);
+        border-radius: 20px;
+    }
+                &__tablink.active {
+                    background-color: #2194FF;
+                    color: #F1F1F1;
+                    opacity: 1;
+                }
+                                        &__tablink {
+                                            margin-right: 24px;
+                                        }
+                                        &__container div:last-child {
+                                            margin-right: 0px;
+                                        }
+    &__title {
+        padding-top: 34px;
+        padding-bottom: 35px;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43.38px;
+        text-align: center;
+        color: #2194FF;
+    }
+    // .capacity__tabcontent
+
+    &__tabcontent {
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+                &__tabcontent.active {
+                    display: block;
+                }
 }
