@@ -409,6 +409,7 @@ body {
 }
 .capacity {
   background-color: #2C3237;
+  height: 587px;
 }
 .capacity__title {
   padding-top: 34px;
@@ -457,7 +458,14 @@ body {
 .capacity__tabcontent {
   display: none;
 }
+.capacity__tabcontent img {
+  position: relative;
+  left: 150px;
+}
 .capacity__btn {
+  position: relative;
+  right: 302px;
+  top: 237px;
   display: inline-block;
   margin-bottom: 47px;
   padding-top: 29px;
