@@ -550,6 +550,8 @@ body{
 .capacity {
     background-color: #2C3237;
     height: 587px;
+    position: relative;
+
     // .capacity__box
     &__title {
         padding-top: 34px;
@@ -615,17 +617,18 @@ body{
         
     }
            &__tabcontent img {
-            position: relative;
-            left: 150px;
+
     
            }
-
+    &__container {
+        position: relative;
+        bottom: -20px;
+        left: 397px;
+    }
     // .capacity__btn
 
     &__btn {
-        position: relative;
-        right: 302px;
-        top: 237px;
+
         display: inline-block;
         margin-bottom: 47px;
         padding-top: 29px;
@@ -638,10 +641,13 @@ body{
         font-size: 24px;
         line-height: 28.92px;
         color: #2C3237;
+        text-align: center;
     }
                 &__btn a {
                     
 
                 }
 }
+
+
 
